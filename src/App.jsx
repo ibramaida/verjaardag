@@ -3,7 +3,7 @@ import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div className="min-h-dvh bg-amber-100">
+    <div className="min-h-dvh bg-violet-100">
       <Header />
     </div>
   );
