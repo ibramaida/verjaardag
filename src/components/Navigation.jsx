@@ -2,11 +2,11 @@ import React from "react";
 
 const Navigation = () => {
   return (
-    <ul className="md:flex items-center py-4">
+    <ul className="flex gap-4 items-center justify-between xs:justify-normal grow-1 xs:grow-0">
       <li>
         <a
           href="#"
-          className="font-bold text-violet-50 md:px-4 md:py-2 hover:text-violet-300"
+          className="font-bold text-violet-50  md:py-2 hover:text-violet-300"
         >
           Home
         </a>
@@ -14,7 +14,7 @@ const Navigation = () => {
       <li>
         <a
           href="#"
-          className="font-bold text-violet-50 md:px-4 md:py-2 hover:text-violet-300"
+          className="font-bold text-violet-50  md:py-2 hover:text-violet-300"
         >
           About
         </a>
@@ -22,7 +22,7 @@ const Navigation = () => {
       <li>
         <a
           href="#"
-          className="font-bold text-violet-50 md:px-4 md:py-2 hover:text-violet-300"
+          className="font-bold text-violet-50  md:py-2 hover:text-violet-300"
         >
           Design
         </a>
@@ -30,7 +30,7 @@ const Navigation = () => {
       <li>
         <a
           href="#"
-          className="font-bold text-violet-50 md:px-4 md:py-2 hover:text-violet-300"
+          className="font-bold text-violet-50  md:py-2 hover:text-violet-300"
         >
           Contact
         </a>
